@@ -13,4 +13,4 @@
 5、修改提交
 	git add .
 	git commit -m "XXX"
-	git push origin master
+	git push origin main
