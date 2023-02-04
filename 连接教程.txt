@@ -1,0 +1,16 @@
+1、安装好git设置用户名和邮箱
+	git config --global user.name "XXX"  用户名标识
+	git config --global user.email "xxxx@xxx.com"  邮箱标识
+2、创建密钥
+	ssh-keygen -t rsa  //--创建秘钥
+3、远程github配置ssh秘钥
+
+4、连接指定仓库
+	在github上创建仓库
+	git init
+	git remote add origin 仓库地址
+	git remote -v
+5、修改提交
+	git add .
+	git commit -m "XXX"
+	git push origin master
